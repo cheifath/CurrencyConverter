@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body { 
+    background-color: grey
+}
+
+.main-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: white;
+    height: 55vh;
+    width: 23vw;
+    border-radius: 8px;
+    /* text-align: center; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.header {
+    padding: 20px;
+}
+
+.input-section {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.input-section input {
+    height: 30px;
+    width: 294px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+.currency-section {
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+}
+
+.currency-from {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    
+}
+
+.from-flag {
+    position: relative;
+    height: 40px;;
+    border-radius: 5px;
+    border: 1px solid grey;
+
+}
+
+.currency-from img {
+    width: 20px;
+    position: absolute;
+    bottom: 11px;
+    left: 8px;
+}
+
+.currency-from select{
+    height: 40px;
+    width: 100px;
+    outline: none;
+    border: none;
+    padding-left: 33px;
+  
+
+}
+
+.currency-to {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-left: 12px;
+    
+}
+
+.to-flag {
+    position: relative;
+    height: 40px;;
+    border-radius: 5px;
+    border: 1px solid grey;
+
+}
+
+.currency-to img {
+    width: 20px;
+    position: absolute;
+    bottom: 11px;
+    left: 8px;
+}
+
+.currency-to select{
+    height: 37px;
+    width: 100px;
+    outline: none;
+    border: none; 
+    padding-left: 33px;
+
+
+
+}
+
+.currency-to option {
+    margin-right: 4px;
+}
+
+.icon {
+    position: relative;
+}
+
+i {
+    font-size: 20px;
+    position: absolute;
+    bottom: 28px;
+}
+
+.result-section {
+    padding: 20px;
+}
+
+.get-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.get-button button {
+    height: 48px;
+    width: 290px;
+    background-color: black;
+    color: white;
+    border-radius: 23px;
+}
+
